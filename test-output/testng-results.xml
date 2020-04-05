@@ -2,16 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="allSuites" duration-ms="0" started-at="2020-04-05T20:11:54Z" finished-at="2020-04-05T20:11:54Z">
+  <suite name="Provider Services Suite" duration-ms="497" started-at="2020-04-05T23:48:40Z" finished-at="2020-04-05T23:48:40Z">
     <groups>
     </groups>
-  </suite> <!-- allSuites -->
-  <suite name="Provider Services Suite" duration-ms="1676" started-at="2020-04-05T20:11:52Z" finished-at="2020-04-05T20:11:54Z">
-    <groups>
-    </groups>
-    <test name="Provider Services Test" duration-ms="1676" started-at="2020-04-05T20:11:52Z" finished-at="2020-04-05T20:11:54Z">
+    <test name="Provider Services Test" duration-ms="497" started-at="2020-04-05T23:48:40Z" finished-at="2020-04-05T23:48:40Z">
       <class name="com.fp.service.client.testcases.ProviderServicesTestSuite">
-        <test-method status="PASS" signature="setupSuite(java.lang.String)[pri:0, instance:com.fp.service.client.testcases.ProviderServicesTestSuite@13c9d689]" name="setupSuite" is-config="true" duration-ms="8588" started-at="2020-04-05T15:11:44Z" finished-at="2020-04-05T15:11:52Z">
+        <test-method status="PASS" signature="setupSuite(java.lang.String)[pri:0, instance:com.fp.service.client.testcases.ProviderServicesTestSuite@75d4a5c2]" name="setupSuite" is-config="true" duration-ms="77747" started-at="2020-04-05T18:47:22Z" finished-at="2020-04-05T18:48:40Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="ProviderDetails()[pri:0, instance:com.fp.service.client.testcases.ProviderServicesTestSuite@13c9d689]" name="ProviderDetails" duration-ms="1622" started-at="2020-04-05T15:11:52Z" finished-at="2020-04-05T15:11:54Z">
+        <test-method status="PASS" signature="ProviderDetails()[pri:0, instance:com.fp.service.client.testcases.ProviderServicesTestSuite@75d4a5c2]" name="ProviderDetails" duration-ms="409" started-at="2020-04-05T18:48:40Z" finished-at="2020-04-05T18:48:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProviderDetails -->

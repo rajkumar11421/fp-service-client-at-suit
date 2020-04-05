@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -83,15 +84,12 @@ public class XLUtils {
 		Map<String, String> testData = new HashMap<String, String>();
 
 		try {
-			System.out.println("File Path ::: "+filePath);
-			ClassLoader classLoader = ClassLoader.getSystemClassLoader();
-			 
-			File file = new File(classLoader.getResource(filePath).getFile());
 			
-			FileInputStream inputStream = new FileInputStream(file);
+			InputStream in = ClassLoader.getSystemResourceAsStream(filePath);
+			 
 
 			// Create Workbook instance holding reference to .xlsx file
-			XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
+			XSSFWorkbook workbook = new XSSFWorkbook(in);
 			for (String sheetName : sheetNames) {
 
 				// Get first/desired sheet from the workbook
@@ -130,7 +128,7 @@ public class XLUtils {
 					testData.put(key, value);
 				}
 			}
-			inputStream.close();
+			in.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

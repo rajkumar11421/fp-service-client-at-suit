@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeSuite; 
 import org.testng.annotations.Parameters;
 
 import com.fp.service.client.util.XLUtils;
@@ -52,7 +52,7 @@ public abstract class FpBase {
 
 			List<String> userTypes = Arrays.asList(properties.getProperty("fp.userTypes").split(","));
 			
-			//testDataMap = XLUtils.readDataFromXLFile("testData/fpTestData-"+env.toUpperCase()+".xlsx", userTypes);
+			testDataMap = XLUtils.readDataFromXLFile("testData/fpTestData-"+env.toUpperCase()+".xlsx", userTypes);
 			
 			//generating service token
 			token = this.getToken();

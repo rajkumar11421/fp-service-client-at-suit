@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">2 suites</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Provider_Services_Suite">
-                    <span>C:\Users\akuma189\workspace-spring\fp-service-client-at-suit\src\main\resources\ProviderServicesTestSuite.xml</span>
+                    <span>C:\Users\akuma189\git\fp-service-client-at-suit-test\src\main\resources\ProviderServicesTestSuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -116,8 +116,6 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-allSuites" class="panel allSuites">
-        </div> <!-- panel allSuites -->
         <div panel-name="suite-Provider_Services_Suite" class="panel Provider_Services_Suite">
           <div class="suite-Provider_Services_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
@@ -135,25 +133,9 @@
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Provider_Services_Suite-class-passed -->
         </div> <!-- panel Provider_Services_Suite -->
-        <div panel-name="test-xml-allSuites" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\akuma189\workspace-spring\fp-service-client-at-suit\src\main\resources\RegressionTestSuite.xml</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <pre>
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;allSuites&quot;&gt;
-  &lt;suite-files&gt;
-    &lt;suite-file path=&quot;src/main/resources/ProviderServicesTestSuite.xml&quot;/&gt;
-  &lt;/suite-files&gt;
-&lt;/suite&gt; &lt;!-- allSuites --&gt;
-            </pre>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
         <div panel-name="test-xml-Provider_Services_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\akuma189\workspace-spring\fp-service-client-at-suit\src\main\resources\ProviderServicesTestSuite.xml</span>
+            <span class="header-content">C:\Users\akuma189\git\fp-service-client-at-suit-test\src\main\resources\ProviderServicesTestSuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -170,15 +152,6 @@
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-allSuites" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for allSuites</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <ul>
-            </ul>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
         <div panel-name="testlist-Provider_Services_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Tests for Provider Services Suite</span>
@@ -191,42 +164,11 @@
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-allSuites" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for allSuites</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
         <div panel-name="group-Provider_Services_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Groups for Provider Services Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="times-allSuites" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for allSuites</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="times-div">
-              <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_allSuites');
-function tableData_allSuites() {
-var data = new google.visualization.DataTable();
-data.addColumn('number', 'Number');
-data.addColumn('string', 'Method');
-data.addColumn('string', 'Class');
-data.addColumn('number', 'Time (ms)');
-data.addRows(0);
-window.suiteTableData['allSuites']= { tableData: data, tableDiv: 'times-div-allSuites'}
-return data;
-}
-              </script>
-              <div id="times-div-allSuites">
-              </div> <!-- times-div-allSuites -->
-            </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Provider_Services_Suite" class="panel">
@@ -247,22 +189,15 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ProviderDetails')
 data.setCell(0, 2, 'com.fp.service.client.testcases.ProviderServicesTestSuite')
-data.setCell(0, 3, 1622);
+data.setCell(0, 3, 409);
 window.suiteTableData['Provider_Services_Suite']= { tableData: data, tableDiv: 'times-div-Provider_Services_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 409 ms</span>
               <div id="times-div-Provider_Services_Suite">
               </div> <!-- times-div-Provider_Services_Suite -->
             </div> <!-- times-div -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="reporter-allSuites" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for allSuites</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="reporter-Provider_Services_Suite" class="panel">
@@ -272,23 +207,9 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-allSuites" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
         <div panel-name="ignored-methods-Provider_Services_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="chronological-allSuites" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -306,7 +227,7 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">ProviderDetails</span>
-                <span class="method-start">8639 ms</span>
+                <span class="method-start">77825 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

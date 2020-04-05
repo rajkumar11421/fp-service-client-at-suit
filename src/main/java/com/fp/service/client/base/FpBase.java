@@ -41,7 +41,7 @@ public abstract class FpBase {
 
 		InputStream inputStream = null;
 
-		try {
+		try { 
 
 			env = environment;
 			

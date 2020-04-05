@@ -35,7 +35,7 @@ public abstract class FpBase {
 	 * @throws Exception
 	 * @author akuma189
 	 */
-	@BeforeSuite(alwaysRun = true)
+	@BeforeSuite(alwaysRun = true) 
 	@Parameters({"environment"})
 	public void setupSuite(String environment) throws Exception {
 
@@ -52,7 +52,7 @@ public abstract class FpBase {
 
 			List<String> userTypes = Arrays.asList(properties.getProperty("fp.userTypes").split(","));
 			
-			testDataMap = XLUtils.readDataFromXLFile("testData/fpTestData-"+env.toUpperCase()+".xlsx", userTypes);
+			//testDataMap = XLUtils.readDataFromXLFile("testData/fpTestData-"+env.toUpperCase()+".xlsx", userTypes);
 			
 			//generating service token
 			token = this.getToken();

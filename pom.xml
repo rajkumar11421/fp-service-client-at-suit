@@ -88,7 +88,7 @@
 					<parallel>methods</parallel>
 					<threadCount>${suiteNodes}</threadCount>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/${suiteFile}</suiteXmlFile>
+						<suiteXmlFile>src/main/resources/${suiteFile}</suiteXmlFile>
 					</suiteXmlFiles>
 					<!-- <suiteXmlFiles> <suiteXmlFile>src/test/resources/tpa-ap-idcard-web.xml</suiteXmlFile> 
 						</suiteXmlFiles> -->

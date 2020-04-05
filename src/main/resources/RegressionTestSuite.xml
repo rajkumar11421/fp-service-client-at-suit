@@ -5,7 +5,6 @@
 <!-- Contains all test suite xml files -->
 
 	<suite-files>
-		<suite-file path="src/main/resources/MemberServicesTestSuite.xml" />
 		<suite-file path="src/main/resources/ProviderServicesTestSuite.xml" />
 	</suite-files>
 

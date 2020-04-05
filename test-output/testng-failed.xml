@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Provider Services Suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Member Services Suite]">
   <parameter name="environment" value="Test"/>
-  <test name="Provider Services Test(failed)" parallel="methods">
+  <test name="Member Services Test(failed)" parallel="methods">
     <classes>
-      <class name="com.fp.service.client.testcases.ProviderServicesTestSuite">
+      <class name="com.fp.service.client.testcases.MemberServicesTestSuite">
         <methods>
           <include name="setupSuite"/>
-          <include name="ProviderDetails"/>
+          <include name="MemberDetails"/>
         </methods>
-      </class> <!-- com.fp.service.client.testcases.ProviderServicesTestSuite -->
+      </class> <!-- com.fp.service.client.testcases.MemberServicesTestSuite -->
     </classes>
-  </test> <!-- Provider Services Test(failed) -->
-</suite> <!-- Failed suite [Provider Services Suite] -->
+  </test> <!-- Member Services Test(failed) -->
+</suite> <!-- Failed suite [Member Services Suite] -->

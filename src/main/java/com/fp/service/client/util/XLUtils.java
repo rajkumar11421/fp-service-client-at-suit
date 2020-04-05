@@ -83,7 +83,7 @@ public class XLUtils {
 		Map<String, String> testData = new HashMap<String, String>();
 
 		try {
-			
+			System.out.println("File Path ::: "+filePath);
 			ClassLoader classLoader = ClassLoader.getSystemClassLoader();
 			 
 			File file = new File(classLoader.getResource(filePath).getFile());

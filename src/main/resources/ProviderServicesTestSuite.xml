@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Provider Services Suite" parallel="none">
+
+	<parameter name="environment" value="${environment}" /> 
+	<test name="Provider Services Test" parallel="methods" thread-count="10">
+		<classes>
+			<class name="com.fp.service.client.testcases.ProviderServicesTestSuite" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

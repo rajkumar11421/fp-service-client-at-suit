@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Provider Services Suite]">
+  <parameter name="environment" value="Test"/>
+  <test name="Provider Services Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.fp.service.client.testcases.ProviderServicesTestSuite">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="ProviderDetails"/>
+        </methods>
+      </class> <!-- com.fp.service.client.testcases.ProviderServicesTestSuite -->
+    </classes>
+  </test> <!-- Provider Services Test(failed) -->
+</suite> <!-- Failed suite [Provider Services Suite] -->

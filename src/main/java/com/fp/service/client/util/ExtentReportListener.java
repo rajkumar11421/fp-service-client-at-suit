@@ -14,7 +14,7 @@ public class ExtentReportListener extends TestListenerAdapter {
 
 	public ExtentHtmlReporter htmlReporter;
 	public ExtentReports extent;
-	public ExtentTest test;
+	public ExtentTest test; 
 	
 	private static String getTestMethodName(ITestResult iTestResult) {
 		return iTestResult.getMethod().getConstructorOrMethod().getName();

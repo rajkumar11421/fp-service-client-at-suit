@@ -16,7 +16,7 @@
 	<profiles>
 		<profile>
 			<id>jenkins_parameters</id>
-			<properties>
+			<properties> 
 				<browser>${browser}</browser>
 				<platform>${platform}</platform>
 				<groupToRun>${groupToRun}</groupToRun>

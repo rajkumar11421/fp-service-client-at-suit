@@ -55,7 +55,7 @@ public abstract class FpBase {
 			testDataMap = XLUtils.readDataFromXLFile("testData/fpTestData-"+env.toUpperCase()+".xlsx", userTypes);
 			
 			//generating service token
-			token = this.getToken();
+			token = this.getToken(); 
 			logger.info("Token :::::::::::::::::: "+ token);
 
 			logger.info("File path :::::::::::: "+System.getProperty("user.dir")+"/test-output/fp-report.html");

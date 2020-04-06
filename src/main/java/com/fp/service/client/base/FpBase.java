@@ -28,7 +28,7 @@ public abstract class FpBase {
 	public static Map<String, String> testDataMap;
 	
 	public Logger logger = Logger.getLogger(getClass());
-
+ 
 	/**
 	 * This method is responsible for defining common things and loading test data. It runs based on selection of environment 
 	 * @param environment
@@ -57,9 +57,9 @@ public abstract class FpBase {
 			//generating service token
 			token = this.getToken();
 			logger.info("Token :::::::::::::::::: "+ token);
+
 			logger.info("File path :::::::::::: "+System.getProperty("user.dir")+"/test-output/fp-report.html");
 
-			
 		} catch (Exception e) {
 			logger.error("error getting while loading client-service.properites file, env="+env, e);
 		}finally{

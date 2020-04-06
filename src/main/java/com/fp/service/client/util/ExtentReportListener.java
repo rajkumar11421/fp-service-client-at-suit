@@ -35,7 +35,7 @@ public class ExtentReportListener extends TestListenerAdapter {
 
 	@Override
 	public void onTestSuccess(ITestResult iTestResult) {
-		test = extent.createTest(iTestResult.getName());
+		test = extent.createTest(iTestResult.getName()); 
 		
 		test.log(Status.PASS, "Test case passed is "+iTestResult.getName());
 	}

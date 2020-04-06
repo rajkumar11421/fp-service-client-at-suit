@@ -57,6 +57,7 @@ public abstract class FpBase {
 			//generating service token
 			token = this.getToken();
 			logger.info("Token :::::::::::::::::: "+ token);
+			logger.info("File path :::::::::::: "+System.getProperty("user.dir")+"/test-output/fp-report.html");
 
 			
 		} catch (Exception e) {

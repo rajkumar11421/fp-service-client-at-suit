@@ -22,7 +22,7 @@ public class ExtentReportListener extends TestListenerAdapter {
 
 	@Override
 	public void onStart(ITestContext iTestContext) {
-		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/fp-report.html");
+		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"\\test-output\\fp-report.html");
 		htmlReporter.config().setDocumentTitle("FP Services Automation Report");
 		htmlReporter.config().setReportName("FP Services Automation Testing Report");
 		htmlReporter.config().setTheme(Theme.DARK);
